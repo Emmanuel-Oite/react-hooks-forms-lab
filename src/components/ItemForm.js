@@ -2,6 +2,8 @@ import React from "react";
 import { v4 as uuid } from "uuid";
 
 function ItemForm(props) {
+  //this function creates a form component that includes and input
+  //field for the items name, a dropdown menu for item category and a submit button.
   return (
     <form className="NewItem">
       <label>
